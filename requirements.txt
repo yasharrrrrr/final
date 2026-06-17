@@ -1,0 +1,17 @@
+# BAORCO Online Shop - Python dependencies
+
+Django==5.0.6
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.4.0
+django-filter==24.2
+python-dotenv==1.0.1
+Pillow==10.3.0
+requests==2.32.3
+
+# MSSQL driver (required only when DB_ENGINE=mssql).
+# Needs Microsoft ODBC Driver 17/18 for SQL Server installed on the host.
+mssql-django==1.5
+
+# Production server (optional)
+gunicorn==22.0.0
